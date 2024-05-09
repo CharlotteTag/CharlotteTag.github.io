@@ -25,11 +25,17 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ('github', 'https://github.com/CharlotteTag'),
+    ('linked-in', 'https://www.linkedin.com/in/charlotte-kalutycz-5459572aa/'),
 )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+THEME = "templates/theme"
+
+# Create custom footer
+FOOTER_INCLUDE = 'myfooter.html'
+IGNORE_FILES = [FOOTER_INCLUDE]
