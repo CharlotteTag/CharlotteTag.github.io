@@ -10,8 +10,10 @@ function createHeader() {
     const header = document.getElementById('header');
 
     // Create the title and append it to the header
-    const title = document.createElement("h1");
+    const title = document.createElement("a");
+    title.id = "title"
     title.textContent = "Charlotte Kalutycz";
+    title.href = "/index.html"
     header.append(title);
 
     // Create the navigation menu and append it to the header
