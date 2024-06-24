@@ -1,14 +1,21 @@
 #title {
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: black;
+    color: #0F0F0F;
 }
 
-nav ul {
+nav>ul {
     list-style-type: none;
+    background-color: #2D2E2E;
 }
 
-nav li {
+nav>ul>li>a {
     text-decoration: none;
-    color: black;
+    color: #FBFBFB;
+    text-align: center;
+    transition: 2s;
+}
+
+nav>ul>li>a:hover {
+    background-color: #B5C2B7;
 }
