@@ -13,10 +13,7 @@ function createHeader() {
     const title = document.createElement("a");
     title.id = "title"
     title.href = "/index.html"
-    const image = document.createElement("img");
-    image.src = "/images/title.png"
-    image.alt = "Charlotte Kalutycz"
-    title.append(image);
+    title.textContent = "Charlotte Kalutycz"
     header.append(title);
 
     // Create the navigation menu and append it to the header
