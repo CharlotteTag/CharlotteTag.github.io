@@ -22,8 +22,8 @@ function createHeader() {
     // Create the navigation menu and append it to the header
     const navigation = document.createElement("nav");
     const u_list = document.createElement("ul");
-    nav_options = ["Education", "Work Experience"]
-    nav_links = ["/content/education.html", "/content/work.html"]
+    let nav_options = ["Education", "Work Experience"]
+    let nav_links = ["/content/education.html", "/content/work.html"]
     for (let i=0; i < nav_options.length; i++) {
         const current_li = document.createElement("li");
         const current_a = document.createElement("a");

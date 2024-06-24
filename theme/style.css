@@ -1,7 +1,6 @@
-#title {
-    font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #0F0F0F;
+#title>img {
+    width: 30%;
+    height: auto;
 }
 
 nav>ul {
