@@ -3,18 +3,14 @@
     height: auto;
 }
 
-nav>ul {
+#header>nav>ul {
     list-style-type: none;
-    background-color: #2D2E2E;
 }
 
-nav>ul>li>a {
+#header>nav>ul>li {
+    display: inline-block;
+}
+
+#header>nav>ul>li>a {
     text-decoration: none;
-    color: #FBFBFB;
-    text-align: center;
-    transition: 2s;
-}
-
-nav>ul>li>a:hover {
-    background-color: #B5C2B7;
 }
