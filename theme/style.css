@@ -109,7 +109,7 @@ body {
 }
 
 #gradphoto {
-    width: 15%;
+    width: 15em;
     height: auto;
     margin-left: 1em;
     margin-right: 1em;
@@ -128,4 +128,34 @@ body {
     color: #FBFBFB;
     font-family: "Nunito", sans-serif;
     font-size: 1.5em;
+}
+
+#footer>nav>ul {
+    margin: 0px;
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+#footer>nav>ul>li {
+    padding: 1em;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+#footer>nav>ul>li>a {
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    color: #FBFBFB;
+    font-size: 1.3em;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+#footer>nav>ul>li>a:hover {
+    text-decoration: underline;
+    text-decoration-color: #FBFBFB;
+}
+
+#footer>nav>ul>li>a:visited {
+    color: #FBFBFB;
 }
