@@ -38,6 +38,10 @@ function createFooter() {
     const summary = document.createElement("p");
     summary.textContent = "Thank you for visiting!"
     footer.append(summary);
+
+    // Create the navigation menu ahnd append it to the header
+    const navigation = document.createElement("nav");
+    const u_list = document.createElement("ul");
     let nav_options = ["Education", "Work Experience", "Project Experience", "Extracurriculars"];
     let nav_links = ["/content/education.html", "/content/workexperience.html", "/content/projectexperience.html", "/content/extracurriculars.html"];
     for (let i=0; i < nav_options.length; i++) {
@@ -49,6 +53,6 @@ function createFooter() {
         u_list.append(current_li);
     }
     navigation.append(u_list);
-    header.append(navigation);
+    footer.append(navigation);
 }
 
