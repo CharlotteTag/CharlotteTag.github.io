@@ -55,7 +55,7 @@ body {
 }
 
 #main {
-    height: 100vh;
+    min-height: 100vh;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 2%;
@@ -71,7 +71,7 @@ body {
     border-radius: 25px;
 }
 
-#wip {
+#content>#wip {
     font-family: "Nunito", sans-serif;
     font-style: italic;
     font-size: 1.5em;
@@ -99,10 +99,18 @@ body {
     font-weight: 200;
 }
 
+#content>ul>li {
+    font-family: "Nunito", sans-serif;
+    color: #2B2B2B;
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
 #gradphoto {
-    float: left;
     width: 15%;
     height: auto;
+    margin-left: 1em;
+    float: right;
 }
 
 #footer {
