@@ -128,16 +128,18 @@ html,body {
 #footer {
     width: 100%;
     padding: 1%;
-    text-align: center;
+    padding-left: 5%;
     background-color: #2B2B2B;
 }
 
 #footer>div {
     display: inline-block;
-    text-align: center;
+    vertical-align: top;
+    margin-right: 5%;
 }
 
 #footer h1 {
+    margin: 0px;
     color: #FBFBFB;
     font-family: "Nunito", sans-serif;
     font-size: 1.5em;
