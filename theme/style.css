@@ -101,6 +101,10 @@ body {
     font-weight: 300;
 }
 
+#content>p>a, #content>p>a:visited {
+    color: #2B2B2B;
+}
+
 #content>ul>li {
     font-family: "Nunito", sans-serif;
     color: #2B2B2B;

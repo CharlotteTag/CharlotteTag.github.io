@@ -36,7 +36,7 @@ function createHeader() {
 function createFooter() {
     const footer = document.getElementById('footer');
 
-    // Create the navigation menu ahnd append it to the header
+    // Create the navigation menu ahnd append it to the footer
     const navigation = document.createElement("nav");
     const u_list = document.createElement("ul");
     let nav_options = ["Home", "Education", "Work Experience", "Project Experience", "Extracurriculars"];
