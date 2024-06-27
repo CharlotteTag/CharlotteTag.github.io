@@ -132,26 +132,30 @@ html,body {
     background-color: #2B2B2B;
 }
 
-#footer>h1 {
+#footer>div {
+    display: inline-block;
+    text-align: center;
+}
+
+#footer h1 {
     color: #FBFBFB;
     font-family: "Nunito", sans-serif;
     font-size: 1.5em;
     font-weight: 600;
 }
 
-#footer>nav>ul {
+#footer ul {
     margin: 0px;
     padding-inline-start: 0px;
     list-style-type: none;
 }
 
-#footer>nav>ul>li {
-    padding: 1em;
-    display: inline-block;
+#footer li {
+    padding: 0.2em;
     transition: 0.5s;
 }
 
-#footer>nav>ul>li>a {
+#footer a {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     color: #FBFBFB;
@@ -160,11 +164,11 @@ html,body {
     transition: 0.5s;
 }
 
-#footer>nav>ul>li>a:hover {
+#footer a:hover {
     text-decoration: underline;
     text-decoration-color: #FBFBFB;
 }
 
-#footer>nav>ul>li>a:visited {
+#footer a:visited {
     color: #FBFBFB;
 }

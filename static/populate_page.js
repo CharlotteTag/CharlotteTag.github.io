@@ -36,9 +36,13 @@ function createHeader() {
 function createFooter() {
     const footer = document.getElementById('footer');
 
-    // Create the navigation menu ahnd append it to the footer
-    const navigation = document.createElement("nav");
-    const u_list = document.createElement("ul");
+    // Create the navigation menu and append it to the footer
+    const nav_div = document.createElement("div");
+    const nav_header = document.createElement("h1");
+    nav_header.textContent = "Explore the Site";
+    nav_div.append(nav_header);
+    const nav_nav = document.createElement("nav");
+    const nav_list = document.createElement("ul");
     const nav_options = ["Home", "Education", "Work Experience", "Project Experience", "Extracurriculars"];
     const nav_links = ["/index.html", "/content/education.html", "/content/workexperience.html", "/content/projectexperience.html", "/content/extracurriculars.html"];
     for (let i=0; i < nav_options.length; i++) {
@@ -47,15 +51,17 @@ function createFooter() {
         current_a.textContent = nav_options[i];
         current_a.href = nav_links[i];
         current_li.append(current_a);
-        u_list.append(current_li);
+        nav_list.append(current_li);
     }
-    navigation.append(u_list);
-    footer.append(navigation);
+    nav_nav.append(nav_list);
+    nav_div.append(nav_nav);
+    footer.append(nav_div);
 
     // Create the contact menu in the footer
-    const contact = document.createElement("h1");
-    contact.textContent = "Connect with me!"
-    footer.append(contact)
+    const contact_div = document.createElement("div");
+    const contact_header = document.createElement("h1");
+    contact_header.textContent = "Connect With Me";
+    contact_div.append(contact_header);
     const contact_nav = document.createElement("nav");
     const contact_list = document.createElement("ul");
     const contact_options = ["LinkedIn", "GitHub"];
@@ -69,6 +75,7 @@ function createFooter() {
         contact_list.append(current_li);
     }
     contact_nav.append(contact_list);
-    footer.append(contact_nav);
+    contact_div.append(contact_nav);
+    footer.append(contact_div);
 }
 
