@@ -1,12 +1,16 @@
+// This program manipulates the DOM to add the header and footer to all HTML files
+// Its purpose is to eliminate repetitive code from the HTML files within this website, since the header and footer content is constant
+
 'use strict';
 
 window.addEventListener('load', (event) => {
-    // Once the page has loaded, add the consistent page elements
+    // Once the page has loaded, call the header and footer functions
     createHeader();
     createFooter();
 })
 
 function createHeader() {
+    // Get the header element from the DOM
     const header = document.getElementById('header');
 
     // Create the title and append it to the header
@@ -34,6 +38,7 @@ function createHeader() {
 }
 
 function createFooter() {
+    // Get the footer element from the DOM
     const footer = document.getElementById('footer');
 
     // Create the navigation menu and append it to the footer

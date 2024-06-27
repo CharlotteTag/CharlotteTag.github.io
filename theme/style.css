@@ -127,15 +127,15 @@ html,body {
 
 #footer {
     width: 100%;
-    padding: 1%;
-    padding-left: 5%;
+    padding: 2%;
+    padding-left: 7%;
     background-color: #2B2B2B;
 }
 
 #footer>div {
     display: inline-block;
     vertical-align: top;
-    margin-right: 7%;
+    margin-right: 6%;
 }
 
 #footer h1 {
