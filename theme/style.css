@@ -83,12 +83,11 @@ html,body {
     color: #2B2B2B;
     font-size: 1.5em;
     font-weight: 400;
-    text-decoration: none;
     transition: 0.5s;
 }
 
 #table-of-contents>ul>li>a:hover {
-    text-decoration: underline;
+    color: #96E6B3;
 }
 
 #content {
