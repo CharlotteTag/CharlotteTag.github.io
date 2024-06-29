@@ -38,7 +38,7 @@ html,body {
     background-color: #4E4E4E;
 }
 
-#header>nav>ul>li>a {
+#header>nav>ul>li>a, #header>nav>ul>li>a:visited {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     color: #FBFBFB;
@@ -50,10 +50,6 @@ html,body {
 #header>nav>ul>li>a:hover {
     text-decoration: underline;
     text-decoration-color: #FBFBFB;
-}
-
-#header>nav>ul>li>a:visited {
-    color: #FBFBFB;
 }
 
 #main {
@@ -169,6 +165,16 @@ html,body {
     font-weight: 700;
 }
 
+#footer>h2, #footer>h2>a, #footer>h2>a:visited {
+    position: absolute;
+    bottom: 2%;
+    right: 7%;
+    color: #FBFBFB;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
 #footer ul {
     margin: 0px;
     padding-inline-start: 0px;
@@ -180,7 +186,7 @@ html,body {
     transition: 0.5s;
 }
 
-#footer a {
+#footer a, #footer a:visited {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     color: #FBFBFB;
@@ -192,8 +198,4 @@ html,body {
 #footer a:hover {
     text-decoration: underline;
     text-decoration-color: #FBFBFB;
-}
-
-#footer a:visited {
-    color: #FBFBFB;
 }

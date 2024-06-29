@@ -82,5 +82,13 @@ function createFooter() {
     contact_nav.append(contact_list);
     contact_div.append(contact_nav);
     footer.append(contact_div);
+
+    // Create the source code link and add it to the footer
+    const source_header = document.createElement("h2");
+    const source_link = document.createElement("a");
+    source_header.textContent = "View this site's source code "
+    source_link.textContent = "here!";
+    source_header.append(source_link);
+    footer.append(source_header);
 }
 
