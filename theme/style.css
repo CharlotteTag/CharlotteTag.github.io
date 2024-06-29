@@ -187,11 +187,6 @@ html,body {
     background-color: #2B2B2B;
 }
 
-#footer>div {
-    display: inline-block;
-    margin-right: 6%;
-}
-
 #footer h1 {
     margin: 0px;
     color: #FBFBFB;
@@ -225,18 +220,21 @@ html,body {
     text-decoration-color: #FBFBFB;
 }
 
-.topdiv {
+.menudiv {
     vertical-align: top;
+    display: inline-block;
+    margin-right: 6%;
 }
 
-.bottomdiv {
-    vertical-align: bottom;
+#sourcecode {
+    margin: auto;
+    text-align: center;
 }
 
-#sourcecode>h2, #sourcecode>h2>a, #sourcecode>h2>a:visited, #sourcecode>h2>a:hover {
+#sourcecode>h2, #sourcecode>a, #sourcecode>a:visited, #sourcecode>a:hover {
     color: #FBFBFB;
     font-family: "Nunito", sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
     font-style: italic;
     margin: 0px
