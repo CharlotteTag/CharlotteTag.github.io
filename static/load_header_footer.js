@@ -43,7 +43,7 @@ function createFooter() {
 
     // Create the navigation menu and append it to the footer
     const nav_div = document.createElement("div");
-    contact_div.classList.add("topdiv");
+    nav_div.classList.add("topdiv");
     const nav_header = document.createElement("h1");
     nav_header.textContent = "Explore the Site";
     nav_div.append(nav_header);
