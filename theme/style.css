@@ -165,16 +165,6 @@ html,body {
     font-weight: 700;
 }
 
-#footer>h2, #footer>h2>a, #footer>h2>a:visited {
-    position: absolute;
-    bottom: 2%;
-    right: 7%;
-    color: #FBFBFB;
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-}
-
 #footer ul {
     margin: 0px;
     padding-inline-start: 0px;
@@ -198,4 +188,16 @@ html,body {
 #footer a:hover {
     text-decoration: underline;
     text-decoration-color: #FBFBFB;
+}
+
+#sourcecode {
+    vertical-align: bottom;
+}
+
+#sourcecode>h2, #sourcecode>h2>a, #sourcecode>h2>a:visited, #sourcecode>h2>a:hover {
+    color: #FBFBFB;
+    font-family: "Nunito", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: italic;
 }
