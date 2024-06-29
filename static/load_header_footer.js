@@ -43,6 +43,7 @@ function createFooter() {
 
     // Create the navigation menu and append it to the footer
     const nav_div = document.createElement("div");
+    contact_div.classList.add("topdiv");
     const nav_header = document.createElement("h1");
     nav_header.textContent = "Explore the Site";
     nav_div.append(nav_header);
@@ -64,6 +65,7 @@ function createFooter() {
 
     // Create the contact menu in the footer
     const contact_div = document.createElement("div");
+    contact_div.classList.add("topdiv");
     const contact_header = document.createElement("h1");
     contact_header.textContent = "Connect With Me";
     contact_div.append(contact_header);
@@ -85,11 +87,13 @@ function createFooter() {
 
     // Create the source code link and add it to the footer
     const source_div = document.createElement("div");
+    contact_div.classList.add("bottomdiv");
     source_div.id = "sourcecode";
     const source_header = document.createElement("h2");
     const source_link = document.createElement("a");
     source_header.textContent = "View this site's source code "
     source_link.textContent = "here!";
+    source_link.href = "https://github.com/CharlotteTag/CharlotteTag.github.io";
     source_header.append(source_link);
     source_div.append(source_header);
     footer.append(source_div);

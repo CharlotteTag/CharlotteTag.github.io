@@ -153,7 +153,6 @@ html,body {
 
 #footer>div {
     display: inline-block;
-    vertical-align: top;
     margin-right: 6%;
 }
 
@@ -176,7 +175,7 @@ html,body {
     transition: 0.5s;
 }
 
-#footer a, #footer a:visited {
+#footer li>a, #footer li>a:visited {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     color: #FBFBFB;
@@ -190,8 +189,17 @@ html,body {
     text-decoration-color: #FBFBFB;
 }
 
-#sourcecode {
+.topdiv {
+    vertical-align: top;
+}
+
+.bottomdiv {
     vertical-align: bottom;
+}
+
+#sourcecode {
+    margin-left: auto; 
+    margin-right: 1em;
 }
 
 #sourcecode>h2, #sourcecode>h2>a, #sourcecode>h2>a:visited, #sourcecode>h2>a:hover {
