@@ -6,7 +6,9 @@
 window.addEventListener('load', (event) => {
     // Once the page has loaded, delete the JavaScript message and call the header and footer functions
     const loading_message = document.getElementById('loading');
-    loading_message.remove();
+    if (!(loading_message === null)) {
+        loading_message.remove();
+    }
     createHeader();
     createFooter();
 })
