@@ -93,8 +93,8 @@ function createFooter() {
     source_header.textContent = "View this site's source code "
     source_link.textContent = "here!";
     source_link.href = "https://github.com/CharlotteTag/CharlotteTag.github.io";
+    source_header.append(source_link);
     source_div.append(source_header);
-    source_div.append(source_link);
     footer.append(source_div);
 }
 

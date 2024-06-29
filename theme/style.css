@@ -67,8 +67,9 @@ html,body {
     height: fit-content;
     background-color: #FFFFFF;
     border-radius: 25px;
-    padding: 1%;
-    margin-left: 1%;
+    border: solid;
+    border-color: #2B2B2B;
+    float: right;
 }
 
 #table-of-contents>h1 {
