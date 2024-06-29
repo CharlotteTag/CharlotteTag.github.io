@@ -4,7 +4,9 @@
 'use strict';
 
 window.addEventListener('load', (event) => {
-    // Once the page has loaded, call the header and footer functions
+    // Once the page has loaded, delete the JavaScript message and call the header and footer functions
+    const loading_message = document.getElementById('loading');
+    loading_message.remove();
     createHeader();
     createFooter();
 })

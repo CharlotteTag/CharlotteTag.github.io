@@ -6,6 +6,15 @@ html,body {
     overflow-x: clip; 
 }
 
+#loading {
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    color: #2B2B2B;
+    font-weight: 700;
+    font-size: 3em;
+}
+
 #header {
     padding-top: 1%;
 }
