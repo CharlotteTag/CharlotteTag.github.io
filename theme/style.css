@@ -76,6 +76,7 @@ html,body {
     color: #2B2B2B;
     font-size: 1.8em;
     font-weight: 700;
+    text-align: center;
 }
 
 #table-of-contents>ul>li>a, #table-of-contents>ul>li>a:visited {
@@ -126,7 +127,7 @@ html,body {
     font-family: "Nunito", sans-serif;
     color: #2B2B2B;
     font-size: 1.5em;
-    font-weight: 700;
+    font-weight: 400;
     text-decoration: underline;
 }
 
