@@ -87,7 +87,7 @@ function createFooter() {
 
     // Create the source code link and add it to the footer
     const source_div = document.createElement("div");
-    contact_div.classList.add("bottomdiv");
+    source_div.classList.add("bottomdiv");
     source_div.id = "sourcecode";
     const source_header = document.createElement("h2");
     const source_link = document.createElement("a");
