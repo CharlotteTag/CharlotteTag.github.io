@@ -110,6 +110,7 @@ html,body {
     font-size: 1.2em;
     font-style: italic;
     font-weight: 700;
+    margin-top: 0px;
 }
 
 #content>p {
@@ -119,7 +120,7 @@ html,body {
     font-weight: 300;
 }
 
-#content>p>a, #content>p>a:visited, #content>h3>a:visited {
+#content>p>a, #content>p>a:visited, #content>h3>a, #content>h3>a:visited {
     color: #2B2B2B;
 }
 
@@ -132,6 +133,10 @@ html,body {
 
 .indent {
     text-indent: 1em;
+}
+
+.h4buddy {
+    margin-bottom: 0.3em;
 }
 
 #gradphoto {
