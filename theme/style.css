@@ -63,7 +63,7 @@ html,body {
 }
 
 #table-of-contents {
-    width: 50%;
+    width: 25%;
     height: fit-content;
     background-color: #FFFFFF;
     border-radius: 25px;
@@ -92,6 +92,7 @@ html,body {
 
 #content {
     min-height: 96vh;
+    width: 100%;
     padding: 3%;
     margin: auto;
     background-color: #FFFFFF;
