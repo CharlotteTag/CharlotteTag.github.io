@@ -63,11 +63,12 @@ html,body {
 }
 
 #table-of-contents {
-    width: 20%;
+    width: 50%;
+    height: fit-content;
     background-color: #FFFFFF;
     border-radius: 25px;
     padding: 1%;
-    margin-right: 2%;
+    margin-left: 1%;
 }
 
 #table-of-contents>h1 {
@@ -75,6 +76,19 @@ html,body {
     color: #2B2B2B;
     font-size: 1.8em;
     font-weight: 700;
+}
+
+#table-of-contents>ul>li>a, #table-of-contents>ul>li>a:visited {
+    font-family: "Nunito", sans-serif;
+    color: #2B2B2B;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#table-of-contents>ul>li>a:hover {
+    text-decoration: underline;
 }
 
 #content {
