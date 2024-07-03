@@ -15,6 +15,9 @@ html,body {
     font-size: 3em;
 }
 
+
+/*Header Styles*/
+
 #header {
     padding-top: 1%;
 }
@@ -61,6 +64,9 @@ html,body {
     text-decoration-color: #FBFBFB;
 }
 
+
+/*Main Styles*/
+
 #main {
     min-height: 100vh;
     padding-left: 5%;
@@ -80,7 +86,7 @@ html,body {
     border-radius: 25px;
 }
 
-#content>#wip {
+#wip {
     font-family: "Nunito", sans-serif;
     font-style: italic;
     font-size: 1.5em;
@@ -88,7 +94,7 @@ html,body {
     text-align: center;
 }
 
-#content>h1 {
+.page-title {
     font-family: "Nunito", sans-serif;
     text-align: center;
     color: #2B2B2B;
@@ -96,22 +102,22 @@ html,body {
     font-weight: 700;
 }
 
-#content>h2 {
+.paragraph-title {
     font-family: "Nunito", sans-serif;
     color: #2B2B2B;
     font-size: 1.8em;
     font-weight: 700;
 }
 
-#content>h3 {
+.paragraph-title2 {
     font-family: "Nunito", sans-serif;
     color: #2B2B2B;
     font-size: 1.5em;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: underline;
 }
 
-#content>h4 {
+.paragraph-title3 {
     font-family: "Nunito", sans-serif;
     color: #2B2B2B;
     font-size: 1.2em;
@@ -120,29 +126,19 @@ html,body {
     margin-top: 0px;
 }
 
-#content>p {
+.paragraph-text {
     font-family: "Nunito", sans-serif;
     color: #2B2B2B;
     font-size: 1.2em;
     font-weight: 300;
-}
-
-#content>p>a, #content>p>a:visited, #content>h3>a, #content>h3>a:visited {
-    color: #2B2B2B;
-}
-
-#content>ul>li {
     list-style-type: circle;
 }
 
-#content>ul>li {
-    font-family: "Nunito", sans-serif;
+.paragraph-link, .paragraph-link:visited {
     color: #2B2B2B;
-    font-size: 1.2em;
-    font-weight: 300;
 }
 
-#content>hr {
+hr {
     margin-top: 2em;
     margin-bottom: 2em;
 }
@@ -151,7 +147,7 @@ html,body {
     text-indent: 1em;
 }
 
-.h4buddy {
+.squish {
     margin-bottom: 0.3em;
 }
 
@@ -163,6 +159,9 @@ html,body {
     float: right;
     border-radius: 5%;
 }
+
+
+/*Footer Styles*/
 
 #footer {
     width: 100%;
