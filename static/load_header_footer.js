@@ -28,6 +28,7 @@ function createHeader() {
     const navigation_div = document.createElement("div");
     navigation_div.id = "navigation";
     const site_navigation = document.createElement("nav");
+    site_navigation.classList.add("header-nav");
     const site_ul = document.createElement("ul");
     site_ul.classList.add("header-ul");
     const nav_options = ["Education", "Work Experience", "Project Experience", "Extracurriculars"];
@@ -38,6 +39,7 @@ function createHeader() {
         current_a.textContent = nav_options[i];
         current_a.href = nav_links[i];
         current_li.classList.add("header-li");
+        current_li.classList.add("hoverable");
         current_li.append(current_a);
         site_ul.append(current_li);
     }
@@ -45,6 +47,7 @@ function createHeader() {
     navigation_div.append(site_navigation);
 
     const social_navigation = document.createElement("nav");
+    social_navigation.classList.add("header-nav");
     const social_ul = document.createElement("ul");
     social_ul.classList.add("header-ul");
     const social_links = ["https://github.com/CharlotteTag", "https://www.linkedin.com/in/charlotte-kalutycz-5459572aa/"];
@@ -54,9 +57,11 @@ function createHeader() {
         let current_li = document.createElement("li");
         let current_a = document.createElement("a");
         let current_img = document.createElement("img");
+        current_li.classList.add("header-li");
         current_a.href = social_links[i];
         current_img.src = social_images[i];
         current_img.alt = social_alts[i];
+        current_img.classList.add("header-nav-img");
         current_a.append(current_img);
         current_li.append(current_a);
         site_ul.append(current_li);
