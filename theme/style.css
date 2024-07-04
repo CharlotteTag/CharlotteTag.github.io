@@ -31,30 +31,25 @@ html,body {
     font-size: 3em;
 }
 
-#navigation {
-    width: 100%;
-    background-color: #2B2B2B;
-}
-
-.header-nav {
-    display: flex;
-}
-
 .header-ul {
     margin: 0px;
     padding-inline-start: 0px;
     padding-left: 5%;
     list-style-type: none;
+    background-color: #2B2B2B;
 }
 
 .header-li {
     padding: 1em;
     display: inline-block;
-    background-color: #2B2B2B;
     transition: 0.5s;
 }
 
-.hoverable:hover {
+header-img-li {
+    display: inline-block;
+}
+
+.header-li:hover {
     background-color: #4E4E4E;
 }
 
@@ -72,7 +67,7 @@ html,body {
     text-decoration-color: #FBFBFB;
 }
 
-.header-nav-img {
+.header-img {
     width: 2em;
     height: auto;
 }

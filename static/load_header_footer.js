@@ -25,51 +25,39 @@ function createHeader() {
     header.append(title);
 
     // Create the navigation menu and append it to the header
-    const navigation_div = document.createElement("div");
-    navigation_div.id = "navigation";
-    const site_navigation = document.createElement("nav");
-    site_navigation.classList.add("header-nav");
-    const site_ul = document.createElement("ul");
-    site_ul.classList.add("header-ul");
+    const nav_menu = document.createElement("nav");
+    nav_menu.classList.add("header-nav");
+    const nav_ul = document.createElement("ul");
+    nav_ul.classList.add("header-ul");
     const nav_options = ["Education", "Work Experience", "Project Experience", "Extracurriculars"];
     const nav_links = ["/content/education.html", "/content/workexperience.html", "/content/projectexperience.html", "/content/extracurriculars.html"];
+    const social_links = ["https://github.com/CharlotteTag", "https://www.linkedin.com/in/charlotte-kalutycz-5459572aa/"];
+    const social_images = ["/images/github-mark-white.png", "/images/In-White-72@2x.png"];
+    const social_alts = ["GitHub", "LinkedIn"];
     for (let i=0; i < nav_options.length; i++) {
         let current_li = document.createElement("li");
         let current_a = document.createElement("a");
         current_a.textContent = nav_options[i];
         current_a.href = nav_links[i];
         current_li.classList.add("header-li");
-        current_li.classList.add("hoverable");
         current_li.append(current_a);
-        site_ul.append(current_li);
+        nav_ul.append(current_li);
     }
-    site_navigation.append(site_ul);
-    navigation_div.append(site_navigation);
-
-    const social_navigation = document.createElement("nav");
-    social_navigation.classList.add("header-nav");
-    const social_ul = document.createElement("ul");
-    social_ul.classList.add("header-ul");
-    const social_links = ["https://github.com/CharlotteTag", "https://www.linkedin.com/in/charlotte-kalutycz-5459572aa/"];
-    const social_images = ["/images/github-mark-white.png", "/images/In-White-72@2x.png"];
-    const social_alts = ["GitHub", "LinkedIn"];
     for (let i=0; i < social_links.length; i++) {
         let current_li = document.createElement("li");
         let current_a = document.createElement("a");
         let current_img = document.createElement("img");
-        current_li.classList.add("header-li");
+        current_li.classList.add("header-img-li");
         current_a.href = social_links[i];
         current_img.src = social_images[i];
         current_img.alt = social_alts[i];
-        current_img.classList.add("header-nav-img");
+        current_img.classList.add("header-img");
         current_a.append(current_img);
         current_li.append(current_a);
-        social_ul.append(current_li);
+        nav_ul.append(current_li);
     }
-    social_navigation.append(social_ul);
-    navigation_div.append(social_navigation);
-
-    header.append(navigation_div);
+    nav_menu.append(nav_ul);
+    header.append(nav_menu);
 }
 
 function createFooter() {
