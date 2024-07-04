@@ -31,26 +31,30 @@ html,body {
     font-size: 3em;
 }
 
-#header>nav>ul {
+#navigation {
+    width: 50%;
+    background-color: #2B2B2B;
+}
+
+.header-ul {
     margin: 0px;
     padding-inline-start: 0px;
     padding-left: 5%;
     list-style-type: none;
-    background-color: #2B2B2B;
 }
 
-#header>nav>ul>li {
+.header-li {
     padding: 1em;
     display: inline-block;
     background-color: #2B2B2B;
     transition: 0.5s;
 }
 
-#header>nav>ul>li:hover {
+.header-li:hover {
     background-color: #4E4E4E;
 }
 
-#header>nav>ul>li>a, #header>nav>ul>li>a:visited {
+.header-li>a, .header-li>a:visited {
     font-family: "Nunito", sans-serif;
     text-decoration: none;
     color: #FBFBFB;
@@ -59,7 +63,7 @@ html,body {
     transition: 0.5s;
 }
 
-#header>nav>ul>li>a:hover {
+.header-li>a:hover {
     text-decoration: underline;
     text-decoration-color: #FBFBFB;
 }
