@@ -64,7 +64,7 @@ function createHeader() {
         current_img.classList.add("header-nav-img");
         current_a.append(current_img);
         current_li.append(current_a);
-        site_ul.append(current_li);
+        social_ul.append(current_li);
     }
     social_navigation.append(social_ul);
     navigation_div.append(social_navigation);
