@@ -138,6 +138,15 @@ html,body {
     color: #2B2B2B;
 }
 
+.photo-description {
+    font-family: "Nunito", sans-serif;
+    color: #2B2B2B;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 0px;
+}
+
 hr {
     margin-top: 2em;
     margin-bottom: 2em;
@@ -151,12 +160,26 @@ hr {
     margin-bottom: 0.3em;
 }
 
+.right-photo-div {
+    width: 22em;
+    margin-left: 1em;
+    margin-right: 1em;
+    float: right;
+    text-align: center;
+}
+
 #gradphoto {
     width: 14em;
     height: auto;
     margin-left: 1em;
     margin-right: 1em;
     float: right;
+    border-radius: 5%;
+}
+
+#bearphoto {
+    width: 22em;
+    height: auto;
     border-radius: 5%;
 }
 
