@@ -98,14 +98,14 @@ html,body {
     text-align: center;
     color: #2B2B2B;
     font-size: 2.5em;
-    font-weight: 700;
+    margin-bottom: 1em;
 }
 
 .paragraph-title {
-    font-family: "Nunito", sans-serif;
+    font-family: "DM Serif Display", serif;
     color: #2B2B2B;
     font-size: 1.8em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .paragraph-title2 {
